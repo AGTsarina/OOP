@@ -1,1 +1,3 @@
 Перегрузка операторов
+
+https://metanit.com/cpp/tutorial/5.14.php
