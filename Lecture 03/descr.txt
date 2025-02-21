@@ -1,1 +1,9 @@
 Работа с изображением
+
+Полезные ссылки:
+Описание формата BMP
+http://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/2003_w/misc/bmp_file_format/bmp_file_format.htm
+https://jenyay.net/Programming/Bmp
+
+Бинарные файлы
+https://metanit.com/c/tutorial/7.2.php
