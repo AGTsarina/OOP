@@ -5,5 +5,9 @@
 http://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/2003_w/misc/bmp_file_format/bmp_file_format.htm
 https://jenyay.net/Programming/Bmp
 
-Бинарные файлы
+Бинарные файлы (С)
 https://metanit.com/c/tutorial/7.2.php
+
+Бинарные потоки (С++)
+https://metanit.com/cpp/tutorial/8.2.php
+
