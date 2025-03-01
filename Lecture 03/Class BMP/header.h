@@ -26,5 +26,13 @@ struct Header
         this->reserved = *(reinterpret_cast<int*>(tmp + 6));
         this->dataOffset = *(reinterpret_cast<int*>(tmp + 10));        
     }
+
+    void save(std::ofstream &bmp_file){
+        bmp_file.write(this->signature, 2);
+        bmp_file.write(reinterpret_cast<char*>(&this->fileSize), 4);
+        bmp_file.write(reinterpret_cast<char*>(&this->reserved), 4);
+        bmp_file.write(reinterpret_cast<char*>(&this->dataOffset), 4);
+    } 
+
 };
 
