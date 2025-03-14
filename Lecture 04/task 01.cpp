@@ -83,7 +83,7 @@ int main(){
     Polygon poly(points);
     
     poly.print();    
-    Point pointA(1,1);   // !!! Должно быть (1, 0.5) 
+    Point pointA(1,1);   // !!! Должно быть (2, 0.5) 
     poly.contains(pointA);   
     pointA.print();  
     Point pointB(10, 4); 
